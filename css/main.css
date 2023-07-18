@@ -1,0 +1,182 @@
+:root {
+	--main-color: #121193;
+	--btn-color: #000;
+	--text-color: #c72092;
+	--white-color: #fff;
+	--sadow-color: #adb7da;
+	--bacground-color-card: #f9dddb;
+	--borde-color: #6c14d0;
+--header-color-main:linear-gradient(to right, var(--text-color), var(--borde-color));
+}
+
+* {
+	text-transform: capitalize;
+}
+
+body {
+	background-image: url(/img/loging_bg.png);
+	font-family: "Robot", sans-serif;
+}
+
+/* start navbar */
+nav {
+	background-color: var(--white-color) !important;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+
+}
+
+.navbar-brand h1 {
+	color: var(--text-color) !important;
+}
+.navbar-brand h1 span {
+	color: var(--borde-color) !important;
+	text-decoration: underline !important;
+}
+.navbar-nav .nav-item .nav-link {
+	color: var(--text-color) !important;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+	background-color: var(--text-color);
+	color: var(--white-color) !important;
+
+}
+.nav-btn .btn {
+	color: white;
+
+}
+
+.nav-btn .btn.active,
+.nav-btn .btn:hover {
+	color: white;
+
+}
+
+.navbar-toggler svg {
+	color: var(--bacground-color-card);
+}
+
+/* end navbar */
+
+
+
+.login {
+	width: 30%;
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+.login h1{
+	color:var(--borde-color) ;
+}
+.login-image {
+	margin-top: 80px;
+	margin-left: -100px;
+}
+
+.login-image img {
+	width: 650px;
+
+}
+
+.login form input:focus,
+.login form .btn:focus,
+.login form .btn:hover,
+.login form input:hover {
+	box-shadow: none;
+}
+
+.login form label {
+	color: var(--text-color);
+	width: 35px;
+	height: 40px;
+}
+
+.login form label svg {
+	color: var(--text-color);
+
+
+}
+
+.login form .user {
+	width: 350px;
+	border: 2px solid var(--borde-color);
+	background: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.login form input:focus-visible{
+	background-color: transparent;
+}
+.login form .user input {
+	background: none;
+	border: none;
+
+}
+.login form .email {
+	width: 350px;
+	border: 2px solid var(--borde-color);
+	background: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.login form .email input {
+	background: none;
+	border: none;
+
+}
+.login form .password input {
+	background: none;
+	border: none;
+}
+
+.login form .password {
+	width: 350px;
+	border: 2px solid var(--borde-color);
+	background: none;
+	border-radius: 5px;
+
+}
+
+.login form .btn {
+	color: var(--white-color);
+	background: linear-gradient(to right, var(--text-color), var(--borde-color));
+	border: none;
+	width: 350px !important;
+	border-radius: 5px;
+
+}
+
+.login form input {
+	position: relative;
+	width: 300px;
+	border-radius: 0;
+	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+
+}
+
+.login form a {
+	color: #000;
+}

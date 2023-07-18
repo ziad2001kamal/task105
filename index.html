@@ -1,0 +1,688 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/homePage.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">
+        <h1>Shoe<span>s</span></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#review">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servises</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">more</a>
+        </li>
+        </ul>
+        
+        <div class="dropdown ms-auto light-dark">
+          
+          <button class="btn"> <a href="cartProduct.html" id="stop"><i
+                class="fa-solid fa-cart-shopping text-white"></i></a></button>
+                <button class="btn"> <a href="fav.html" id="stop"><i
+                  class="fa-solid fa-heart text-white"></i></a></button>
+                  
+          <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-user"></i>
+          </button>
+          
+          <ul class="dropdown-menu">
+            <li>
+              <div class="text-center" id="welcomeuser">welcome/</div>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item sign-out" href="/login.html">sign-out</a>
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <button class="btn place-items-center mx-2 theme" id="theme-toggle-btn">
+              <i class="fa-regular fa-sun text-white"></i>
+              <!-- <i class="ri-moon-line moon-icon"></i> -->
+            </button>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="landing " id="home">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+          <div class="right m-auto">
+            <h1 class=" mb-5  mt-sm-5">NIKE<br><span class="me-5">Collection</span></h1>
+            <p class=" w-75 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has
+              been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+              leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button class="btn  mt-5"><a href="" class="text-decoration-none  rounded-pill">SHOP NOW <span
+                  class="ms-2 fs-5 fw-bold"><i class="fa-solid fa-chevron-right"></i></span> </a></button>
+          </div>
+        </div>
+        <div class="col-sm-11 col-md-6 col-lg-6 left ">
+          <img src="/img/shoes.png" class="d-sm-none d-md-block d-lg-block" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="cards mt-5 " id="product">
+    <h1 class="text-center mt-5 mb-5 fw-bold">PRODUCTS</h1>
+
+    <div class="container" id="cards">
+
+    </div>
+  </div>
+  </div>
+  <!-- /* start prodact */ -->
+  <div class="prodct mt-5" id="about">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 class="text-center mt-5 mb-5">WEB
+          <span>ABOUT</span>
+        </h1>
+        <div class="col-sm-11 col-md-6 col-lg-7">
+          <div class="row">
+            <div class="col-sm-0 col-md-2 col-lg-2 ">
+              <div class="aboutsmallimage d-sm-none d-md-none d-lg-block">
+                <img src="img/red_shoes1.png" class="img-fluid " onclick="onimge(this)">
+                <img src="img/red_shoes2.png" class="img-fluid" onclick="onimge(this)">
+                <img src="img/red_shoes3.png" class="img-fluid" onclick="onimge(this)">
+                <img src="img/red_shoes4.png" class="img-fluid" onclick="onimge(this)">
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-10">
+              <div class="bigdivimage">
+                <img src="/img/red_shoes1.png" class="aboutbigimage img-fluid">
+              </div>
+            </div>
+          </div>
+          <img src="" alt="">
+        </div>
+        <div class="col-sm-0 col-md-5 col-lg-1">
+        </div>
+        <div class="col-sm-11 col-md-5 col-lg-4">
+          <div class="info-product fs-5">
+            <p>Vooncosir Men's Fashion Sneakers Breathable Mesh Running Shoes Blade Non Slip Soft Sole Casual Athletic
+              Walking Shoes
+            <div class="cart"> <a href="#" class="btn btn-primary">Add To Cart<i
+                  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            <div><span>4.1</span> <i class="fa-solid fa-star"><span class="a-icon-alt">
+                  out of 5 stars</span></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /* end prodact */ -->
+  <!-- start REVIEW -->
+  <div class="review" id="review">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center mb-5 mt-5">CUSTOMER'S
+          <span>REVIEW</span>
+        </h1>
+        <div class="col-sm-11 col-md-6 col-lg-4">
+          <div class="box">
+            <div class="d-flex ">
+              <img src="/img/girl_dp1.jpg" class="" alt="">
+              <div class="m-2 ">
+                <strong>Ranidi Lochana </strong>
+                <br>
+                <i class="fa-solid fa-star"><span class="a-icon-alt">
+                    out of 5 stars</span></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div>
+              <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis dolore
+                dolores incidunt
+                suscipit debitis minima aperiam minus, commodi error labore nemo qui repellendus explicabo laboriosam
+                iure excepturi necessitatibus porro!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-11 col-md-6 col-lg-4">
+          <div class="box">
+            <div class="d-flex ">
+              <img src="/img/gir_dp2.jpg" class="" alt="">
+              <div class="m-2 ">
+                <strong>John Deo</strong>
+                <br>
+                <i class="fa-solid fa-star"><span class="a-icon-alt">
+                    out of 5 stars</span></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div>
+              <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis dolore
+                dolores incidunt
+                suscipit debitis minima aperiam minus, commodi error labore nemo qui repellendus explicabo laboriosam
+                iure excepturi necessitatibus porro!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-11 col-md-6 col-lg-4">
+          <div class="box">
+            <div class="d-flex ">
+              <img src="/img/gir_dp3.jpg" class="" alt="">
+              <div class="m-2 ">
+                <strong>Kaveesha Vidurangi</strong>
+                <br>
+                <i class="fa-solid fa-star"><span class="a-icon-alt">
+                    out of 5 stars</span></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div>
+              <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis dolore
+                dolores incidunt
+                suscipit debitis minima aperiam minus, commodi error labore nemo qui repellendus explicabo laboriosam
+                iure excepturi necessitatibus porro!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-11 col-md-6 col-lg-4">
+          <div class="box">
+            <div class="d-flex ">
+              <img src="/img/man_dp3.jpg" class="" alt="">
+              <div class="m-2 ">
+                <strong>Senuda Dilwan</strong>
+                <br>
+                <i class="fa-solid fa-star"><span class="a-icon-alt">
+                    out of 5 stars</span></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div>
+              <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis dolore
+                dolores incidunt
+                suscipit debitis minima aperiam minus, commodi error labore nemo qui repellendus explicabo laboriosam
+                iure excepturi necessitatibus porro!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-11 col-md-6 col-lg-4">
+          <div class="box">
+            <div class="d-flex ">
+              <img src="/img/man_dp2.jpg" class="" alt="">
+              <div class="m-2 ">
+                <strong>Sayuru Tharanga</strong>
+                <br>
+                <i class="fa-solid fa-star"><span class="a-icon-alt">
+                    out of 5 stars</span></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div>
+              <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis dolore
+                dolores incidunt
+                suscipit debitis minima aperiam minus, commodi error labore nemo qui repellendus explicabo laboriosam
+                iure excepturi necessitatibus porro!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-11 col-md-6 col-lg-4">
+          <div class="box">
+            <div class="d-flex ">
+              <img src="/img/man_dp1.jpg" class="" alt="">
+              <div class="m-2 ">
+                <strong>Charith Aruna</strong>
+                <br>
+                <i class="fa-solid fa-star"><span class="a-icon-alt">
+                    out of 5 stars</span></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div>
+              <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis dolore
+                dolores incidunt
+                suscipit debitis minima aperiam minus, commodi error labore nemo qui repellendus explicabo laboriosam
+                iure excepturi necessitatibus porro!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end REVIEW -->
+  <!-- slider-two  -->
+  <div class="carousel2 slider-two" id="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-11 col-10 mt-5 mb-5">
+          <h1 class="fw-bold">FEATURED <span>PRODUCTS</span> </h1>
+          <hr>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators d-flex justify-content-end">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+              class="owl-dot active rounded-circle" aria-current="true" aria-label="Slide 1"><span></span></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              class="owl-dot rounded-circle" aria-label="Slide 2"><span></span></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              class="owl-dot rounded-circle" aria-label="Slide 3"><span></span></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              class="owl-dot rounded-circle" aria-label="Slide 4"><span></span></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              class="owl-dot rounded-circle" aria-label="Slide 5"><span></span></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/2.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/3.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/4.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/5.jpg" class="card-img-top img-fluid  p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item  ">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/1.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/5.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/6.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/7.jpg" class="card-img-top img-fluid  p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item  ">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/8.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/9.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/10.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/11.jpg" class="card-img-top img-fluid  p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item  ">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/12.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/13.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/14.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/15.jpg" class="card-img-top img-fluid  p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item  ">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/16.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/17.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/18.jpg" class="card-img-top img-fluid p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/shose/19.jpg" class="card-img-top img-fluid  p-4" alt="...">
+                  </div>
+                  <div class="mt-2">
+                    <p>Nike Women's Gymnastics Shoes
+                    </p>
+                  </div>
+                  <div class="salary">
+                    $55
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- en slider two -->
+  <footer class="footer pt-5 pm-5 text-center text-md-start mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-2">
+          <h5 class="Contact">Contact</h5>
+          <div class="info">
+            <p class=""><i class="fa-solid fa-house"></i> 123/Gaza/
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +972 59-472-7849</p>
+            <p><i class="fa-solid fa-envelope"></i>contact@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="link text-center">
+            <h5 class="">Get Help</h5>
+            <ul class="list-unstyled">
+              <li><a href="" class="btn text-decoration-none ">FAQ</a> </li>
+              <li> <a href="" class="btn text-decoration-none ">Shipping</a>
+              </li>
+              <li><a href="" class="btn text-decoration-none ">Returns</a> </li>
+              <li><a href="" class="btn text-decoration-none ">Payment Options</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="AboutUs text-center">
+            <h5 class="">Our Stores</h5>
+            <ul class="list-unstyled">
+              <li><a href="" class="btn text-decoration-none ">Sri Lanka</a>
+              </li>
+              <li><a href="" class="btn text-decoration-none ">USA</a>
+              </li>
+              <li><a href="" class="btn text-decoration-none "> India</a></li>
+              <li><a href="" class="btn text-decoration-none ">Japan</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="Contact-Us ">
+            <h5 class=" text-center">Follw Us</h5>
+
+            <ul class="d-flex justify-content-center mt-4 list-unstyled gap-2 ">
+              <li>
+                <a class="d-block " href="#"><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i></a>
+              </li>
+              <li>
+                <a class="d-block " href="#"><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i></a>
+              </li>
+              <li>
+                <a class="d-block " href="#"><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i></a>
+              </li>
+              <li>
+                <a class="d-block " href="#"><i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="Contact-Us mb-sm-5">
+            <h5 class="text-center">Newsletter </h5>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Subscribe" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/data.js"></script>
+  <script src="/js/homepage.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+
+</html>
