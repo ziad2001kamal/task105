@@ -47,3 +47,15 @@ function getImageBase64(file) {
         alert("Error !!");
     };
 }
+
+
+
+no repeate cart
+function getUniqueArr(arr, filterType) {
+    let unique = arr
+        .map((item) => item[filterType])
+        .map((item, i, final) => final.indexOf(item) === i && i)
+        .filter((item) => arr[item])
+        .map((item) => arr[item]);
+    return unique;
+}
